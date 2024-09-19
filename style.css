@@ -53,7 +53,15 @@ th, td {
   }
 th {
     color: rgb(222, 206, 196);
-    background-color: #a39076;
+    background-color: #d7c1c1;
+  }
+
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #ffffff;
   }
 
 header, footer {
